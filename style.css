@@ -1,0 +1,53 @@
+:root{ 
+--color-primary: rgb(29, 153, 128);
+
+--bg-body: #fff;
+--txt-body:  #222;
+
+
+--primary: #00d1b2;
+--info: #3298dc;
+--success: #48c774;
+--warning:#ffdd57;
+--danger: #f14668;
+}
+
+.dark{ 
+    --bg-body: #fff;
+    --txt-body:  #222;
+}
+
+html{
+    roboto, oxyger, ubuntu, cantarell, 'open sans',
+    sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background-color: var(--bg-body);
+    color: var(--txt-body);
+}
+
+.btn{
+    background-color: white;
+    border: 0;
+    padding: 75em 1em;
+    border-radius: 8px;
+}
+.btn--primary {
+    background-color: var(--primary);
+}
+.btn--danger{
+    background-color: var(--danger);
+}
+.btn--warnig{
+    background-color: var(--warnig);
+}
+.btn--info{
+    background-color:var(--info);

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Jesús Fernández | Portafolio</title>
+    <link rel='stylesheet' href='assets/css/style.css'>
+  </head>
+  <body>
+    <button id="btnDark" class="darkmode">dark mode</button>
+    <h1>Hola soy <span>Jesús Fernández</span></h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae distinctio rerum sunt corrupti nostrum suscipit repellendus alias, impedit, non amet unde laudantium quod enim aperiam, eligendi vero libero eaque blanditiis.</p>
+
+    <button>Descarga mi CV</button>
+
+    <script>
+      btnDark.onclick = function () {
+        document.body.classList.toggle('dark')
+        // if (document.body.classList.contains('dark')) {
+        //   btnDark.textContent = 'light mode'
+        // } else {
+        //   btnDark.textContent = 'dark mode'
+        // }
+      }
+    </script>
+  </body>
+</html>
